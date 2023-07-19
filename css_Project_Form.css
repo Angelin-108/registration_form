@@ -1,0 +1,64 @@
+body, html 
+{
+  height: 100%;
+}
+
+h1
+{
+	font-style:bold;
+    text-align:center;
+}
+
+body
+{
+	font-size:14px;
+	font-family:arial;
+	background-image:url("./images/formimage.jpg");
+	background-position: center;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size: cover;	
+	height:100%;
+	width:auto;
+}
+
+form
+{		
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size: cover;	
+	height:100%;
+	width:100%;
+}
+
+input,select
+{
+
+background-color:RGB(181, 181, 179);
+border-color:black
+margin-right:30px;
+height:20px;
+}
+h1,input,select
+{
+	color:white;
+	margin:10px;
+	border-radius:3px;
+}
+
+lable
+{
+	color:white;
+	font-style:bold;
+}
+textarea {
+	margin-left:10px;
+	background-color:RGB(181, 181, 179);
+	border-style:solid;
+    border-color:white;
+	color:white;
+	}​
+	
+.blur{
+	opacity:0.7;
+}
